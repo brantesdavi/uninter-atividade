@@ -12,10 +12,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    border: 2px solid #7C7C7C; /* Borda ao redor do body */
-    padding: 10px; /* Para evitar que o conteúdo encoste na borda */
+    border: 2px solid #7C7C7C;
+    padding: 10px;
     margin: 10px;
 }
+/* Estilo do body com fonte Arial, fundo preto, layout flexbox centralizado, 
+altura mínima de 100% da tela, borda cinza, e espaçamento interno e externo de 10px */
+
 
 header {
     padding: 10px 16px;
@@ -24,6 +27,9 @@ header {
     height: 100vh;
     width: 100vh;
 }
+/* Estilo do header com padding de 10px no eixo y e 16px no eixo x, 
+layout flexbox em coluna, altura e largura ocupando 100% da viewport */
+
 
 nav ul {
     list-style: none;
@@ -31,12 +37,18 @@ nav ul {
     justify-content: center;
     flex-direction: column;
 }
+/* Estilo para a lista não ordenada dentro do nav, removendo marcadores, 
+usando flexbox em coluna e centralizando os itens horizontalmente */
+
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
 }
+/* Estilo para os links dentro dos itens da lista no nav, definindo a cor branca, 
+removendo o sublinhado e ajustando o tamanho da fonte para 14px */
+
 
 main {
     padding: 20px;
@@ -49,38 +61,56 @@ main {
     align-items: end;
 }
 
+
 form {
     max-width: 500px;
     margin: 20px auto;
     padding: 10px;
-    border-radius: 10px;
     display: flex;
+    justify-content: start;
     flex-direction: column;
 }
+/* Estilo para a main section com padding de 20px, texto alinhado à direita, 
+altura e largura ocupando 100% da viewport, cor do texto branca, layout flexbox 
+em coluna e conteúdo alinhado à direita */
+
 
 .form-group {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
+/* Estilo para o formulário com largura máxima de 500px, 
+centralizado horizontalmente, padding de 10px, 
+layout flexbox em coluna e conteúdo alinhado à esquerda */
+
 
 .form-group label {
     margin-right: 10px;
     font-weight: bold;
-    color: white; /* Ajusta a cor da label */
+    color: white; 
 }
+/* Estilo para labels dentro da classe form-group com margem direita de 10px, 
+texto em negrito e cor branca */
+
 
 form input, form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     flex-grow: 1;
 }
+/* Estilo para inputs e textareas dentro do formulário com padding de 10px, 
+borda de 1px sólida cinza e flexibilidade para crescer conforme necessário */
+
 
 .header-title {
     color: white;
 }
+/*Estilo para o titulo do header com texto na cor branca*/
 
 .header-subtitle {
     color: #7C7C7C;
     font-size: 13.5px;
 }
+/* Estilo para o subtítulo no header com cor cinza
+e tamanho de fonte de 13.5px */
